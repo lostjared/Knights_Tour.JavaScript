@@ -56,6 +56,17 @@ knightImg.onload = function() {
             }
         });
 
+        canvas.addEventListener("touchstart", (event) => {
+              if (event.touches.length === 1 && !tourOver) {
+                  nextMove();
+              } else if (event.touches.length === 2) {
+                  tourOver = false;
+                  moves = 1;
+                  resetTour();
+              }
+              event.preventDefault();
+          });
+
         resetTour();
         draw();
     };
