@@ -1,6 +1,8 @@
 
 # Knight's Tour Demo
 
+![screenshot](https://github.com/lostjared/Knights_Tour.JavaScript/blob/main/screens/knights.tour.jpg)
+
 This is a simple implementation of the Knight's Tour problem using HTML5 Canvas and JavaScript. The demo visualizes the knight's movement on an 8x8 chessboard, where the knight visits each square exactly once.
 
 ## Features
