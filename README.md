@@ -34,7 +34,7 @@ open your web browser to localhost:3000
 ## Usage
 
 1. Download or clone the repository to your local machine.
-2. Open `index.html` in your web browser.
+2. Open in your web browser over http
 3. Use the following keys to interact with the demo:
    - `Space`: Move the knight to the next position.
    - `Enter`: Reset the Knight's Tour.
